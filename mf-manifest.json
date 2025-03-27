@@ -1,0 +1,207 @@
+{
+  "id": "remote_abcd",
+  "name": "remote_abcd",
+  "metaData": {
+    "name": "remote_abcd",
+    "type": "app",
+    "buildInfo": {
+      "buildVersion": "0.0.1",
+      "buildName": "remote-mf-abcd"
+    },
+    "remoteEntry": {
+      "name": "remote_abcd.js",
+      "path": "",
+      "type": "global"
+    },
+    "types": {
+      "path": "",
+      "name": "",
+      "zip": "@mf-types.zip",
+      "api": "@mf-types.d.ts"
+    },
+    "globalName": "remote_abcd",
+    "pluginVersion": "0.8.12",
+    "prefetchInterface": false,
+    "publicPath": "http://localhost:19000/"
+  },
+  "shared": [
+    {
+      "id": "remote_abcd:@norma/brand",
+      "name": "@norma/brand",
+      "version": "0.0.11",
+      "singleton": true,
+      "requiredVersion": "^0.0.11",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js"
+          ],
+          "sync": [
+            "778.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "remote_abcd:@norma/core",
+      "name": "@norma/core",
+      "version": "0.0.16",
+      "singleton": true,
+      "requiredVersion": "^0.0.16",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "778.js"
+          ],
+          "sync": [
+            "950.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "remote_abcd:@norma/icons",
+      "name": "@norma/icons",
+      "version": "0.0.3",
+      "singleton": true,
+      "requiredVersion": "^0.0.3",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "778.js"
+          ],
+          "sync": [
+            "681.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "remote_abcd:react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js"
+          ],
+          "sync": [
+            "952.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "remote_abcd:react-router-dom",
+      "name": "react-router-dom",
+      "version": "7.4.0",
+      "singleton": true,
+      "requiredVersion": "^7.4.0",
+      "assets": {
+        "js": {
+          "async": [
+            "988.js",
+            "952.js"
+          ],
+          "sync": [
+            "129.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    },
+    {
+      "id": "remote_abcd:react",
+      "name": "react",
+      "version": "18.3.1",
+      "singleton": true,
+      "requiredVersion": "^18.3.1",
+      "assets": {
+        "js": {
+          "async": [],
+          "sync": [
+            "988.js"
+          ]
+        },
+        "css": {
+          "async": [],
+          "sync": []
+        }
+      }
+    }
+  ],
+  "remotes": [],
+  "exposes": [
+    {
+      "id": "remote_abcd:RemoteRouter",
+      "name": "RemoteRouter",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_RemoteRouter.js"
+          ],
+          "async": [
+            "988.js",
+            "923.js",
+            "465.js",
+            "64.js",
+            "40.js",
+            "657.js",
+            "681.js",
+            "778.js",
+            "129.js",
+            "952.js",
+            "950.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./RemoteRouter"
+    },
+    {
+      "id": "remote_abcd:PageD",
+      "name": "PageD",
+      "assets": {
+        "js": {
+          "sync": [
+            "__federation_expose_PageD.js"
+          ],
+          "async": [
+            "988.js"
+          ]
+        },
+        "css": {
+          "sync": [],
+          "async": []
+        }
+      },
+      "path": "./PageD"
+    }
+  ]
+}

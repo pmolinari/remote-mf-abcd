@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkremote_rspack=self.webpackChunkremote_rspack||[]).push([["465"],{1970:function(e,s,r){r.r(s),r.d(s,{default:()=>n});var t=r(8269),c=r(8549);let n=()=>(0,t.jsxs)("div",{children:[(0,t.jsx)("h1",{children:"PageA"}),(0,t.jsx)(c.Button,{children:"Btn page A"})]})}}]);
+//# sourceMappingURL=465.js.map
