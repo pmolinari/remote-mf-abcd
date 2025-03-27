@@ -1,0 +1,39 @@
+{
+  "name": "remote-mf-abcd",
+  "version": "0.0.1",
+  "homepage": "https://pmolinari.github.io/remote-mf-abcd/",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production rspack build",
+    "build:dev": "cross-env NODE_ENV=development rspack build",
+    "build:start": "cd dist && rspack serve",
+    "start": "cross-env NODE_ENV=development rspack serve",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@rspack/cli": "~1.2.0",
+    "@rspack/core": "~1.2.0",
+    "@rspack/plugin-react-refresh": "~1.0.1",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "autoprefixer": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^7.1.2",
+    "postcss": "^8.2.1",
+    "postcss-loader": "^8.0.0",
+    "react-refresh": "^0.14.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@module-federation/enhanced": "^0.8.9",
+    "@norma/brand": "file:norma-brand-0.0.11.tgz",
+    "@norma/core": "file:norma-core-0.0.16.tgz",
+    "@norma/form": "file:norma-form-0.0.3.tgz",
+    "@norma/icons": "file:norma-icons-0.0.3.tgz",
+    "gh-pages": "^6.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-error-boundary": "^5.0.0",
+    "react-router-dom": "^7.4.0"
+  }
+}
