@@ -22,7 +22,7 @@
     "globalName": "remote_abcd",
     "pluginVersion": "0.8.12",
     "prefetchInterface": false,
-    "publicPath": "http://localhost:19000/"
+    "publicPath": "/remote-mf-abcd/"
   },
   "shared": [
     {
